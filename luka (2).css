@@ -1,0 +1,67 @@
+
+.ourteam{
+	background-color: #FF9999;
+	background-image: url(zastavica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-around;
+}
+.ourteam_wrapper .team-1{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member{
+	width: 30%;
+	height: 30%;
+	cursor: pointer;
+	overflow: hidden;
+}
+.ourteam_wrapper .hobi img{
+	width: 300px;
+	max-width: 300px; 
+	display: block;
+	height: auto;
+	transition: all 0.5s ease;
+}
+.ourteam_wrapper .hobi:hover img{
+	transform: scale(1.1);
+}
+.ourteam_wrapper .team_member img{
+	width: 90%;
+	max-width: 100%; 
+	display: block;
+	height: auto;
+	transition: all 0.5s ease;
+}
+.ourteam_wrapper .team_member:hover img{
+	transform: scale(1.1);
+}
+
+@font-face{
+	font-family: nekifont;
+	src:url(Sustainable_Amazon_II_Bold.ttf);
+}
+.title{
+	font-family: nekifont;
+	font-size: 50px;
+	text-align: center;
+	color: #bb4443;
+	text-decoration: underline;
+	position: relative;
+}
+
+.dugme{
+
+	font-family: monospace;
+	font-size: 20px;
+	text-align: center;
+	color: #bb4444;
+}
+.imena{
+	color: black;
+	font-family: monospace;
+}
